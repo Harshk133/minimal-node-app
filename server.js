@@ -23,6 +23,8 @@ app.get('/programmer', (req, res) => res.send("Hello, World Programmer"));
 
 app.get('/coder', (req, res) => res.send(`${CODER} and repository count: ${COUNT}, ${VAR}`));
 
+app.get('/hacker', (req, res) => res.send(`${CODER} and repository count: ${COUNT}, ${VAR}`));
+
 app.listen(PORT, () => {
   console.log(`✅ Server running at http://localhost:${PORT}`);
 });
