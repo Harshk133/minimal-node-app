@@ -16,6 +16,8 @@ app.get('/', (req, res) => {
 // Health check (good for Render)
 app.get('/healthz', (req, res) => res.send("ok"));
 
+app.get('/programmer', (req, res) => res.send("Hello, World Programmer"));
+
 app.listen(PORT, () => {
   console.log(`✅ Server running at http://localhost:${PORT}`);
 });
