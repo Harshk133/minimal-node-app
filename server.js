@@ -18,6 +18,8 @@ app.get('/healthz', (req, res) => res.send("ok"));
 
 app.get('/programmer', (req, res) => res.send("Hello, World Programmer"));
 
+app.get('/coder', (req, res) => res.send("Hello, World coder"));
+
 app.listen(PORT, () => {
   console.log(`✅ Server running at http://localhost:${PORT}`);
 });
