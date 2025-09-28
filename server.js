@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3000;
 
 // Example env var
 const GREETING = process.env.GREETING || "Hello from minimal Node app!";
-const CODER = process.env.CODER || "Hello from minimal Node app!";
+const CODER = process.env.CODER || "env not loaded!";
 
 // Root route
 app.get('/', (req, res) => {
